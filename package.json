@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@types/pdfkit": "^0.17.4",
     "@types/uuid": "^11.0.0",
+    "csv-parse": "^6.1.0",
     "firebase": "^10.13.0",
     "firebase-admin": "^13.6.0",
     "framer-motion": "^11.5.0",
